@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pharmacy Management System</h1>
+        <div class="form">
+            <h2>Add Medicine</h2>
+            <input type="text" id="medicineName" placeholder="Medicine Name">
+            <input type="number" id="medicineQuantity" placeholder="Quantity">
+            <input type="number" id="medicinePrice" placeholder="Price">
+            <button onclick="addMedicine()">Add Medicine</button>
+        </div>
+        <h2>Medicines List</h2>
+        <table id="medicinesTable">
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
